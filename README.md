@@ -1,7 +1,6 @@
 # Programming-and-Scripting---Project-April-2018
-Research &amp; Analysis of Fisher Irish data set
-
 Repository for my research and analysis of the Fisher Irish data set. 
+
 
 The data set was sourced from the UCI Machine Learning repository*
 
