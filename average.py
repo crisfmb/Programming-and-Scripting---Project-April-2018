@@ -1,20 +1,20 @@
 #Cristina borges, 03/04/2018
-#average of width and length of sepal and petal of each class.
+# average width & length of sepal and petal for each flower type.
 
 '''using matplotlib a library which produces publication quality figures in a variety of hardcopy 
 formats and interactive environments across platforms'''
 
-import matplotlib.pyplot as plt # import matplolib e usa alias plt
-import os # is a call in the operating system, used to clear a screen terminal
+import matplotlib.pyplot as plt # import matplolib. alias defined as "plt" for use in code 
+import os # this is a call in the operating system which is used to clear a screen terminal
 
 
-def average(class_name, column_name): #calculates the past average as a parameter
+def average(class_name, column_name): #calculates the past average of a parameter
     iris_data_set = open("iris-data-set.csv", "r")
 
-    values = [] # array where is filled with all values ​​to calculate the average
+    values = [] # array which is populated with all values ​​to calculate the average
 
     '''
-    separates the columns, all in lower using comma. If it is sepal lenght fill in the values ​​with cols [0]
+    separates the columns with comma,  using method lower. If it is sepal lenght fill in the values ​​with cols [0]
 and if it is width cols [1] and so on
     '''
     for line in iris_data_set: 
