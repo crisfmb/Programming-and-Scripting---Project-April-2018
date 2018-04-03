@@ -59,3 +59,15 @@ When considering a Multivariate data set, it is important to ensure that due con
 [archive.ics.uci.edu/ml/datasets/Iris](https://archive.ics.uci.edu/ml/datasets/Iris)
 
 [onlinelibrary.wiley.com](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-1809.1936.tb02137.x)
+
+[docs.python.org/3/tutorial/index](https://docs.python.org/3/tutorial/index.html)
+
+[pypi.python.org/pypi](https://pypi.python.org/pypi)
+
+[docs.python.org/3/library/functions.html](https://docs.python.org/3/library/functions.html)
+
+[matplotlib.org/tutorials](https://matplotlib.org/tutorials/introductory/pyplot.html#sphx-glr-tutorials-introductory-pyplot-py)
+
+[kaggle.com/jchen2186/machine-learning-with-iris-dataset](https://www.kaggle.com/jchen2186/machine-learning-with-iris-dataset)
+
+[machinelearningmastery.com/machine-learning-in-python-step-by-step](https://machinelearningmastery.com/machine-learning-in-python-step-by-step/)
