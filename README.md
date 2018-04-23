@@ -59,7 +59,7 @@ The columns in this dataset are:
 
 <img src="https://image.ibb.co/kSQx9H/graf1.jpg" alt="graf1" border="1" height="500" width="580"><br>
 
-
+[back to top](Programming-and-Scripting-Project-April-2018)
 ## Method
 
 ``` python 
@@ -143,7 +143,7 @@ eval({1:"sepal_length()", 2:"sepal_width()", 3:"petal_length()", 4:"petal_width(
 etc.
 The "get" of the dictionary gives it a number and it returns a string/information that is after the ":" i.e. the get passes the key and it returns me a value. In the case of my code, the key is a number and it will return me a string.</p>
 	
-
+[back to top](Programming-and-Scripting-Project-April-2018)
 ## Results
 
 ## Conclusions
@@ -153,7 +153,7 @@ The "get" of the dictionary gives it a number and it returns a string/informatio
 <img src="https://image.ibb.co/jVgyzH/sepal_lenght_average.jpg" alt="sepal_lenght_average" border="1" height="400" width="480"><br>
 <img src="https://image.ibb.co/daLrKH/sepal_width_average.jpg" alt="sepal_width_average" border="1" height="400" width="480"><br>
 
-[back to top](#Project-Outline)
+[back to top](Programming-and-Scripting-Project-April-2018)
 
 ## Post Project Considerations
 
