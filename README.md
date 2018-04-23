@@ -81,7 +81,7 @@ while option != 9:#Loop..choose an option to show the comparatives
     #I use eval instead if. Do the same. He has a dictionary return a string to refer to te number and eval execute comand 
     eval({1:"sepal_length()", 2:"sepal_width()", 3:"petal_length()", 4:"petal_width()"}.get(option,"os.system('cls')"))
 ```
-<p align="justify">Having given some consideration to the problem and carrying out some research both online and following discussions with former colleagues who have experience of python, I decided that it would be best to split into functions ("Separation of Concerns"). The reason for this was for simplicity and to potentially make the code easier and clearer to read. This should also help any third parties reading the code to understand and edit my work with minimal explanation.</p>
+<p align="justify">Having given some consideration to the problem and carrying out some research both online and following discussions with colleagues and forums , I decided that it would be best to split into functions ("Separation of Concerns"). The reason for this was for simplicity and to potentially make the code easier and clearer to read. This should also help any third parties reading the code to understand and edit my work with minimal explanation.</p>
 <p>The "Separation of Concerns" method separates the responsibilities of each function from the code rather than putting everything in the same module and getting a large block filled with could be difficult to read/follow "if" statements. Each function uses certain "boxes" and has a particular responsibility in the code. It helps make the code more organized, readable and easy to find something. 
 This could have been done in a single statement without functions but would not be very presentable. The performance of the code would not be affected by the method used i.e. it was a purely organizational and stylistic decision. 
 When giving consideration to what I could do with the data, I thought it would be interesting and informative to use the data provided to calculate the mean of the measurements taken for each flower class (iris setosa, iris versicolor, iris virginica). </p> 
@@ -98,7 +98,7 @@ The system then asks for a simple mean calculation which is calculated for 4 dif
 * petal length
 * petal width
 
-<p align="justify">We then use another programming concept which is referred to as "don't repeat yourself". This basically tells you that you don't need to write the same piece of code each time as the method/formula used for the calculation of the mean will be the same for each class. It is more sensible/simple to create a function which does the task for us. This the "average" function which reads in each class and each field you want to average.</p>
+<p align="justify">We then use another programming concept which is referred to as "don't repeat yourself". This basically tells you that you don't need to write the same piece of code each time as the method/formula used for the calculation of the mean will be the same for each class. It is more sensible/simple to create a function that we are using the same calculation changing only the classes. This the "average" function which reads in each class and each field you want to average.</p>
 
 ``` python
 def sepal_length():
