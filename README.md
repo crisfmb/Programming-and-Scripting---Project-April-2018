@@ -62,14 +62,14 @@ The columns in this dataset are:
 
 ## Method
 
-``` 
+``` python 
 import matplotlib.pyplot as plt
 import os 
 ```
 <p align="justify">The purpose of this library is to draw the graphics that are printed by the program.
 The library allows you to run commands in the operating system. The command is being used in the main menu at the end of the code (os.system) and is exectuing a "cls" from the windows prompt.  The library is also required to execute these commands.</p>
 
-```
+``` python
 option = 0
 while option != 9:#Loop..choose an option to show the comparatives 
     os.system("cls") # executes command at the prompt, executes cls to clear the terminal
@@ -101,7 +101,7 @@ The system then asks for a simple mean calculation which is calculated for 4 dif
 
 <p align="justify">We then use another programming concept which is referred to as "don't repeat yourself". This basically tells you that you don't need to write the same piece of code each time as the method/formula used for the calculation of the mean will be the same for each class. It is more sensible/simple to create a function which does the task for us. This the "average" function which reads in each class and each field you want to average.</p>
 
-```
+``` python
 def sepal_length():
     plt.bar(["iris-setosa", "iris-versicolor", "iris-virginica"], [average("iris-setosa", "sepal_length"),
                                                                    average("iris-versicolor", "sepal_length"), average("iris-virginica", "sepal_length")])
@@ -133,7 +133,7 @@ def petal_width():
 ```
 <p align="justify">For each of these measures, the average function would have to be repeated in the menu. In order to be better organized, I created a function that performs the average function calculation for each field and class i.e. the average function is the average for the field, class and the field that was sent as the default base function. From it a calculation was created for each part of the plant and those others call the average to do their work and they are initialized by the main menu.</p>
 
-```
+``` python
 eval({1:"sepal_length()", 2:"sepal_width()", 3:"petal_length()", 4:"petal_width()"}.get(option,"os.system('cls')"))
 ```
 <p align="justify">eval() method runs the python code (which is passed as an argument) within the program. I carefully chose eval() method, it was very difficult to get this part correct as initially I did not have the necessary knowledge but after several attempts, searches online and discussing with colleagues, I believe I was able to correctly execute.</p>
