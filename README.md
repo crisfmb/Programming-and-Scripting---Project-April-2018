@@ -52,6 +52,11 @@ When considering a Multivariate data set, it is important to ensure that due con
 
 ## Conclusions
 
+<a href="https://ibb.co/mTRvDc"><img src="https://preview.ibb.co/gC4RKH/petal_legth_average.jpg" alt="petal_legth_average" border="0"></a><br>
+<a href="https://ibb.co/bvxfeH"><img src="https://preview.ibb.co/mxomKH/petal_width_average.jpg" alt="petal_width_average" border="0"></a><br>
+<a href="https://ibb.co/ffFBmx"><img src="https://preview.ibb.co/emERKH/sepal_lenght_average.jpg" alt="sepal_lenght_average" border="0"></a><br>
+<a href="https://ibb.co/eAAcRx"><img src="https://preview.ibb.co/mNFYzH/sepal_width_average.jpg" alt="sepal_width_average" border="0"></a>
+
 ## Post Project Considerations
 
 ## References/Bibliography
