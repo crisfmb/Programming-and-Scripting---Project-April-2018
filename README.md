@@ -152,10 +152,10 @@ These two characteristics would immediately allow for any botanist to differenti
 <img src="https://image.ibb.co/mbyp6x/petal_width_average.jpg" alt="petal_width_average" border="1" height="400" width="480">
 <p align="justify"><i><b>Petal width - the iris-setosa has a significantly narrower petal width than the iris-versicolor and the iris-virginica.</b></i></p>
 
-<p align="justify">By contrast the there is a less pronounced difference in petal length and width between the iris-versicolor and the iris-virginica. While the iris-virginica has the larger average petal lenght and width, the difference may not be statistically significant and would not allow measurements to be used as an easy means of classification.</p>
+<p align="justify">By contrast the there is a less pronounced difference in petal length and width between the iris-versicolor and the iris-virginica. While the iris-virginica has the larger average petal length and width, it is not as pronounced and the difference may not be statistically significant and so would not allow measurements to be used as an easy means of classification.</p>
 <palign="justify"> Moving on to the sepal of each plant:</p>
-<img src="https://image.ibb.co/jVgyzH/sepal_lenght_average.jpg" alt="sepal_lenght_average" border="1" height="400" width="480">
-<p align="justify"><i><b>Sepal lenght: all three are quite similar in size with the iris-setosa smallest then the iris-versicolor and the iris-virginica the largest. It is unlikely that these measures would be useful in identifying the different species.</b></i></p>
+<img src="https://image.ibb.co/jVgyzH/sepal_length_average.jpg" alt="sepal_length_average" border="1" height="400" width="480">
+<p align="justify"><i><b>Sepal length: all three are quite similar in size with the iris-setosa smallest then the iris-versicolor and the iris-virginica the largest. It is unlikely that these measures would be useful in identifying the different species.</b></i></p>
 <img src="https://image.ibb.co/daLrKH/sepal_width_average.jpg" alt="sepal_width_average" border="1" height="400" width="480">
 <p align="justify"><i><b>Sepal width: this is the only measure for which iris-setosa is on average larger than the other two species. Again the iris-virginica and iris-versicolor are on average quite similar in size.</b></i></p><br>
 
@@ -178,6 +178,7 @@ Further points for consideration are whether:
 
 ## References/Bibliography
 <ol type="[1]">
+	
 <li>[UCI Machine Learning Repository] (https://archive.ics.uci.edu/ml/datasets/Iris)</li>
 
 <li>[Wiley Online Library] (https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-1809.1936.tb02137.x)</li>
@@ -192,4 +193,6 @@ Further points for consideration are whether:
 
 <li>[Machine Learning with Iris Dataset] (https://www.kaggle.com/jchen2186/machine-learning-with-iris-dataset)</li>
 
-<li> [Your First Machine Learning Project in Python] (https://machinelearningmastery.com/machine-learning-in-python-step-by-step/)</li></ol>
+<li> [Your First Machine Learning Project in Python] (https://machinelearningmastery.com/machine-learning-in-python-step-by-step/)</li>
+
+</ol>
