@@ -170,11 +170,11 @@ Further points for consideration are whether:
 
 <p align="justify">If I had an opportunity to extend this project to a more detailed statistical analysis, it would be worth considering examining the following statistical measures and tests:
 
- - mode to analyse the frequence in which particular measure appears)
- - median and other percentiles 
- - standard deviation and variance to quantify the level of variation within the data set
- - correlation coefficient - identify what correlation if any there are between the various measures. This can assist in developing a predictive model to determine the size to which the flower (and its petal/sepal) wil grow
- - simple z-test or alternatively a t-test assuming a log-normal distribution due to the likelihood that the data will be somewhat skewed below the mean.</p> 
+* mode to analyse the frequence in which particular measure appears)
+* median and other percentiles 
+* standard deviation and variance to quantify the level of variation within the data set
+* correlation coefficient - identify what correlation if any there are between the various measures. This can assist in developing a predictive model to determine the size to which the flower (and its petal/sepal) wil grow
+* simple z-test or alternatively a t-test assuming a log-normal distribution due to the likelihood that the data will be somewhat skewed below the mean.</p> 
 
 ## References/Bibliography
 <ol type="[1]">
