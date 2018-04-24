@@ -142,17 +142,39 @@ eval({1:"sepal_length()", 2:"sepal_width()", 3:"petal_length()", 4:"petal_width(
 etc.
 The "get" of the dictionary gives it a number and it returns a string/information that is after the ":" i.e. the get passes the key and it returns me a value. In the case of my code, the key is a number and it will return me a string.</p>
 	
-## Results
+## Results & Conclusions
 
-## Conclusions
+<p align="justify">From the graphs set out below, the following traits are quickly identified which can assist with the identification and classification of the various species of Iris:<br>
+These two characteristics would immediately allow for any botanist to differentiate a fully grown iris-setosa from the other species.</p>
 
-<img src="https://image.ibb.co/hA1LDc/petal_legth_average.jpg" alt="petal_legth_average" border="1" height="400" width="480"><br>
-<img src="https://image.ibb.co/mbyp6x/petal_width_average.jpg" alt="petal_width_average" border="1" height="400" width="480"><br>
-<img src="https://image.ibb.co/jVgyzH/sepal_lenght_average.jpg" alt="sepal_lenght_average" border="1" height="400" width="480"><br>
-<img src="https://image.ibb.co/daLrKH/sepal_width_average.jpg" alt="sepal_width_average" border="1" height="400" width="480"><br>
+<img src="https://image.ibb.co/hA1LDc/petal_legth_average.jpg" alt="petal_legth_average" border="1" height="400" width="480">
+<p align="justify"> <i><b>Petal length - the iris-setosa has a significantly shorter petal length than the iris-versicolor and the iris-virginica.</b></i></p>
+<img src="https://image.ibb.co/mbyp6x/petal_width_average.jpg" alt="petal_width_average" border="1" height="400" width="480">
+<p align="justify"><i><b>Petal width - the iris-setosa has a significantly narrower petal width than the iris-versicolor and the iris-virginica.</b></i></p>
 
+<p align="justify">By contrast the there is a less pronounced difference in petal length and width between the iris-versicolor and the iris-virginica. While the iris-virginica has the larger average petal lenght and width, the difference may not be statistically significant and would not allow measurements to be used as an easy means of classification.</p>
+<palign="justify"> Moving on to the sepal of each plant:</p>
+<img src="https://image.ibb.co/jVgyzH/sepal_lenght_average.jpg" alt="sepal_lenght_average" border="1" height="400" width="480">
+<p align="justify"><i><b>Sepal lenght: all three are quite similar in size with the iris-setosa smallest then the iris-versicolor and the iris-virginica the largest. It is unlikely that these measures would be useful in identifying the different species.</b></i></p>
+<img src="https://image.ibb.co/daLrKH/sepal_width_average.jpg" alt="sepal_width_average" border="1" height="400" width="480">
+<p align="justify"><i><b>Sepal width: this is the only measure for which iris-setosa is on average larger than the other two species. Again the iris-virginica and iris-versicolor are on average quite similar in size.</b></i></p><br>
+
+<p align="justify">It is therefore likely that measurements would need to be taken for another part of the various species of iris to determine if we can identify a characteristic that would help in the classification of the iris-virginica and iris-versicolor.
+
+Further points for consideration are whether:
+<ol type="[1]">
+<li>The sample size that has been taken is sufficiently large or if there is a possibility of random sampling error.</li>
+<li>In the spirit of simplicity, is there another visual characteristic that could assist with the classification of the species (for example petal colour)</li</ol></p>
 
 ## Post Project Considerations
+
+<p align="justify">If I had an opportunity to extend this project to a more detailed statistical analysis, it would be worth considering examining the following statistical measures and tests:
+
+ - mode to analyse the frequence in which particular measure appears)
+ - median and other percentiles 
+ - standard deviation and variance to quantify the level of variation within the data set
+ - correlation coefficient - identify what correlation if any there are between the various measures. This can assist in developing a predictive model to determine the size to which the flower (and its petal/sepal) wil grow
+ - simple z-test or alternatively a t-test assuming a log-normal distribution due to the likelihood that the data will be somewhat skewed below the mean.</p> 
 
 ## References/Bibliography
 <ol type="[1]">
